@@ -1,16 +1,16 @@
 blueprint:
-  name: 小米电视
+  name: 电视
   description: 电视开关事件
   domain: automation
-  source_url: https://github.com/shaonianzhentan/xiaomi_tv
+  source_url: https://github.com/shaonianzhentan/xiaomi_tv999
   input:
     media_entity:
       name: 电视
-      description: 小米电视
+      description: 电视
       default: []
       selector:
         entity:
-          integration: xiaomi_tv
+          integration: media_player
           domain: media_player
     tv_on:
       name: 打开电视
