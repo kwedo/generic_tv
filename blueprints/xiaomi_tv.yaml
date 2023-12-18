@@ -10,7 +10,7 @@ blueprint:
       default: []
       selector:
         entity:
-          integration: media_player
+          integration: media_player.hisense_hz55e5a
           domain: media_player
     tv_on:
       name: 打开电视
